@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-tarkov-ballistics/static/css/main.5fd05890.chunk.css",
+    "main.js": "/react-tarkov-ballistics/static/js/main.f765b68b.chunk.js",
+    "main.js.map": "/react-tarkov-ballistics/static/js/main.f765b68b.chunk.js.map",
+    "runtime-main.js": "/react-tarkov-ballistics/static/js/runtime-main.699be360.js",
+    "runtime-main.js.map": "/react-tarkov-ballistics/static/js/runtime-main.699be360.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/react-tarkov-ballistics/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.ba8e0bee.chunk.js": "/react-tarkov-ballistics/static/js/2.ba8e0bee.chunk.js",
+    "static/js/2.ba8e0bee.chunk.js.map": "/react-tarkov-ballistics/static/js/2.ba8e0bee.chunk.js.map",
+    "static/js/3.b7188bcf.chunk.js": "/react-tarkov-ballistics/static/js/3.b7188bcf.chunk.js",
+    "static/js/3.b7188bcf.chunk.js.map": "/react-tarkov-ballistics/static/js/3.b7188bcf.chunk.js.map",
+    "index.html": "/react-tarkov-ballistics/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/react-tarkov-ballistics/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.5fd05890.chunk.css.map": "/react-tarkov-ballistics/static/css/main.5fd05890.chunk.css.map",
+    "static/js/2.ba8e0bee.chunk.js.LICENSE.txt": "/react-tarkov-ballistics/static/js/2.ba8e0bee.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.699be360.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.ba8e0bee.chunk.js",
+    "static/css/main.5fd05890.chunk.css",
+    "static/js/main.f765b68b.chunk.js"
+  ]
+}
