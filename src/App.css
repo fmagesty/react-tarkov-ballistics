@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#app {
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1 {
+  color: rgb(232 190 107);
+  display: flexbox;
+  height: -40em;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+#dropdown1,
+#dropdown2 {
+  display: flexbox;
+  margin-top: 50px;
+  margin-left: 10px;
+  justify-content: left;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#dropdown-menu-item {
+  background-color: black;
+  color: rgb(232 190 107);
+  box-shadow: black;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#dropdown-menu-item:hover {
+  background: rgb(65 61 52);
+  border-color: black;
+}
+#dropdown-basic:hover {
+  background: rgb(65 61 52);
+}
+#dropdown-basic {
+  background-color: black;
+  color: rgb(232 190 107);
+  background-color: black;
+  border-color: black;
+  outline-color: black;
+  box-shadow: 0 0 100px rgb(65 61 52), 0 0 6px rgb(232 190 107 / 80%);
+}
+#dropdown-menu {
+  color: blue;
+  background-color: black;
+}
+#selected-caliber {
+  display: flex;
+  justify-content: left;
+  margin-left: 30px;
+  color: white;
+}
+#dropdown2 {
+  margin-top: 50px;
+  justify-content: left;
+}
+#armor {
+  color: white;
+  font-size: 30px;
+  margin-top: 100px;
+}
+#armor-numbers {
+  margin-top: 20px;
+}
+#dmg-status {
+  color: white;
+  font-size: 25px;
+  width: 500px;
+  float: right;
+  top: -40px;
+  margin-top: -450px;
+  margin-right: 100px;
+}
+#dmg-status > p {
+  margin-top: 30px;
+}
+#tarkov-img {
+  display: flex;
+  background-color: red;
+  color: white;
+  width: 500px;
+  justify-self: center;
+  align-items: center;
+  position: absolute;
+  bottom: 200px;
+  left: 850px;
+  margin-left: -150px;
+  margin-right: 500px;
+}
+.footer {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  bottom: -50px;
+  right: 25%;
+  left: 50%;
+  margin-left: -150px;
+}
+svg {
+  color: white;
+  margin-left: 10px;
 }
