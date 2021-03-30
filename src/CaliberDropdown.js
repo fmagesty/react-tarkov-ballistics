@@ -148,12 +148,6 @@ export default function CaliberDropdown() {
     const v3 = {dmg: 199,pen: 80,arm: 95,acc: 0,rec: 0,fra: 17,lb: 0,hb: 0,eff: '6/6'}
 
 
-
-
-
-
-
-
     function handleClickCaliber (newCaliber) {
         setCaliber(newCaliber)
     }
@@ -487,7 +481,7 @@ export default function CaliberDropdown() {
     </div>
     
     <div id="armor">
-    Effectiveness on armor class 5/6:
+    Effectiveness on armor classes 5/6:
     <p id="armor-numbers">
         {id.eff}
     </p>
